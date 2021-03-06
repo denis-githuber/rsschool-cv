@@ -6,16 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-
+    <header class="header">
+        <div class="container">
+            <h1>Resume Denis Kulikov</h1>
+        </div>
     </header>
-    <main>
+    <main class="main">
+        <div class="container">
+        <div class="photo-contact">
+            <div class="photo-contact__row">
+                <div class="photo-contact__col">
+                    <figure>
+                        <img class="photo-contact__img" src="photo.png" alt="Photo">
+                        <figcaption>Denis Kulikov</figcaption>
+                    </figure>
+                </div>
+                <div class="photo-contact__col">
+                    <div class="contact">
+                        <h2 class="contact__title">Contact:</h2>
+                        <a href="tel:+375291501006">+375 (29) 150-10-06</a>
+                        <a href="mailto:9933denis@gmail.com">9933denis@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div><!-- photo-contact -->
+        <div class="about">
+            <article>
+            <h2 class="about__title">About me</h2>
+            <ol>
+                <li>My target is to be a JS developer. Responsible, pedantic, able to handle a large amount of information and analyze it. I have been working as an internet marketer for about 6 years</li>
+                <li>Html, Css, sass, bootstrap, JS at the beginner level, git. </li>
+                <li>
+                    <code>
+                        function capital(capitals){
 
+                            let result = [];
+                    
+                            capitals.forEach(element => {
+                                result.push( "The capital of " + (element.state || element.country) + " is " + element.capital)
+                            })
+                    
+                            return result;
+                        }
+                    </code>
+                </li>
+                <li>-</li>
+                <li>Higher Education Marketing</li>
+                <li>Beginner English</li>
+            </ol>
+        </article>
+        </div>
+    </div><!-- /.container -->
     </main>
-    <footer>
-
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__copy">
+                <i>Minsk, 2021</i> 
+            </div>
+        </div>
     </footer>
 </body>
 </html>
