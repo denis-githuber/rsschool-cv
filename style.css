@@ -1,0 +1,20 @@
+ul {
+  width: 600px;
+}
+
+ul a {
+   color: #000;
+   transition: all 0.3s linear;
+}
+
+ul a:hover {
+  color: red;
+}
+
+li {
+  margin: 10px 0;
+}
+code {
+  padding: 10px;
+  background: #c0c0c0;
+}
