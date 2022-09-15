@@ -1,1 +1,1 @@
-1. [https://GITHUB-USERNAME.github.io/rsschool-cv/cv](https://GITHUB-USERNAME.github.io/rsschool-cv/cv)
+1. [https://denis-githuber.github.io/rsschool-cv/cv](https://denis-githuber.github.io/rsschool-cv/cv)
